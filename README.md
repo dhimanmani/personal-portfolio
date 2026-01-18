@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Personal Portfolio Website
 
 A beginner-friendly personal portfolio website built with HTML, CSS, and vanilla JavaScript.
@@ -91,7 +92,6 @@ This website works on all modern browsers:
 - Edge
 
 ## Learning Resources
-
 This project demonstrates:
 - Semantic HTML5
 - CSS Flexbox and Grid
@@ -99,13 +99,5 @@ This project demonstrates:
 - Responsive web design
 - Mobile-first approach
 - Form handling
-
-## Notes
-
-- The contact form currently logs data to the console. To make it functional, you'll need to add backend functionality.
-- All images should be optimized for web use.
-- Make sure your resume PDF is not too large (recommended: under 2MB).
-
-## License
-
-Feel free to use this template for your own portfolio!
+# personal-portfolio
+>>>>>>> origin/main
