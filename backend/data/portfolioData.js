@@ -8,7 +8,7 @@
 const profileData = {
     name: "Mani Dhiman",
     bio: "A passionate Computer Science student learning and exploring the world of technology.",
-    photo: "/assets/images/Screenshot 2026-01-18 at 8.15.13 PM.png"
+    photo: "assets/images/Screenshot 2026-01-18 at 8.15.13 PM.png"
 };
 
 // Skills data - Array of skill objects
