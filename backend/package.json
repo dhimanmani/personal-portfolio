@@ -1,0 +1,22 @@
+{
+    "name": "portfolio-backend",
+    "version": "1.0.0",
+    "description": "Simple backend API for portfolio website - Learning full-stack development",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node server.js"
+    },
+    "keywords": [
+        "portfolio",
+        "api",
+        "express",
+        "learning"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5"
+    }
+}

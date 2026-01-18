@@ -1,0 +1,110 @@
+# ============================================
+# .gitignore - Files to exclude from Git
+# ============================================
+# This file tells Git which files/folders to ignore
+# These are typically files that are generated, contain secrets, or are environment-specific
+
+# ============================================
+# Node.js / Backend
+# ============================================
+
+# Dependencies (installed via npm)
+node_modules/
+
+# npm debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables (may contain secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Package lock files (optional - some prefer to commit these)
+# Uncomment the next line if you want to ignore package-lock.json
+# package-lock.json
+
+# ============================================
+# Operating System Files
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================
+# IDE / Editor Files
+# ============================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA / WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# Logs and Temporary Files
+# ============================================
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ============================================
+# Build / Dist Files (if you add build process later)
+# ============================================
+
+# Build outputs
+dist/
+build/
+*.min.js
+*.min.css
+
+# ============================================
+# Testing (if you add tests later)
+# ============================================
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# ============================================
+# Notes
+# ============================================
+# Keep these files in Git:
+# - package.json (lists dependencies)
+# - All source code files (.html, .css, .js)
+# - README.md and documentation
+# - Backend code (server.js, routes, data files)

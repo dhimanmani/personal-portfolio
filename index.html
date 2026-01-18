@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio Website">
+    <title>My Portfolio</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#intro" class="nav-logo">My Portfolio</a>
+            <ul class="nav-menu">
+                <li><a href="#intro" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <!-- Mobile menu toggle button -->
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="intro-container">
+            <div class="intro-content">
+                <div class="profile-photo-container">
+                    <h3>Welcome to my Portfolio</h3>
+                    <br>
+                    <!-- Placeholder for profile photo - replace with your own image -->
+                    <img src="/assets/images/Screenshot 2026-01-18 at 8.15.13 PM.png" alt="Profile Photo"
+                        class="profile-photo"
+                        onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect fill=%22%23ddd%22 width=%22200%22 height=%22200%22/%3E%3Ctext fill=%22%23999%22 font-family=%22sans-serif%22 font-size=%2218%22 dy=%2210.5%22 font-weight=%22bold%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22%3EYour Photo%3C/text%3E%3C/svg%3E'">
+                </div>
+                <h1 class="intro-name">Mani Dhiman</h1>
+                <p class="intro-bio">A passionate Computer Science student learning and exploring the world of
+                    technology.</p>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>
+                    I'm a Computer Science student with a strong foundation in Data Structures and Algorithms, and
+                    hands-on experience in
+                    Python, C, and C++. I enjoy solving logical problems and building efficient solutions.
+                </p>
+                <p>
+                    I’m currently a beginner in web development, learning HTML, CSS, and JavaScript, and have worked on
+                    academic and
+                    personal projects involving AI/ML, DSA, and DBMS.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container" id="skills-container">
+                <!-- Skills will be dynamically rendered here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-container" id="projects-container">
+                <!-- Projects will be dynamically rendered here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-container" id="education-container">
+                <!-- Education entries will be dynamically rendered here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements-section">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-container" id="achievements-container">
+                <!-- Achievements will be dynamically rendered here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <p>Download or view my resume to learn more about my experience and qualifications.</p>
+                <div class="resume-buttons">
+                    <a href="assets/resume.pdf" target="_blank" class="btn btn-primary">View Resume</a>
+                    <a href="assets/resume.pdf" download class="btn btn-secondary">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; Mani Dhiman</p>
+                <div class="social-links">
+                    <a href="https://github.com/dhimanmani" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub">GitHub</a>
+                    <a href="https://www.linkedin.com/in/manidhiman/" target="_blank" rel="noopener noreferrer"
+                        aria-label="LinkedIn">LinkedIn</a>
+                    <a href="mailto:manidhiman2005@gmail.com" target="_blank" rel="noopener noreferrer"
+                        aria-label="Email">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript files -->
+    <!-- API utility must be loaded before main.js -->
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
