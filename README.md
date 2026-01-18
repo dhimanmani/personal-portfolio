@@ -100,4 +100,4 @@ This project demonstrates:
 - Mobile-first approach
 - Form handling
 # personal-portfolio
->>>>>>> origin/main
+>>>>>>>
